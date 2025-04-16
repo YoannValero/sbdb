@@ -92,6 +92,10 @@ footer {
     background-color: #ea770c;
 }
 
+.color-sbdb-theme {
+    color: #ea770c;
+}
+
 .btn-sbdb-theme:hover {
     color: white;
     background-color: #ce6400;
