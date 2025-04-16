@@ -9,7 +9,7 @@ a {
 }
 
 .hero {
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url('image1.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url('../img/image1.jpg') center/cover no-repeat;
     padding: 100px 0;
     text-align: center;
 }
