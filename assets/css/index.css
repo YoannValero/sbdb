@@ -102,6 +102,41 @@ footer {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.218);
 }
 
+.modal-body {
+    text-align: justify;
+}
+
+#services .card:hover {
+    transition:0.2s ease;
+}
+
+#services .card:hover {
+    background-color: rgba(178, 178, 178, 0.074);
+}
+
+.container-img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width:100%;
+}
+.container-img img {
+    max-width: 100%;
+    max-height:300px;
+}
+
+.en-savoir-plus{
+    position:absolute;
+    right:2.5%;
+    top:-3%;
+    font-size:1.5rem;
+}
+
+hr {
+    color: #41414150;
+}
+
 @media (max-width: 799px) {
 
     /* Styles ici pour les écrans de moins de 800px */

@@ -10,7 +10,7 @@
   <!-- Font Awesome pour les icônes réseaux sociaux -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-X..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <link rel="stylesheet" href="assets/css/index.css?version=1.01">
+  <link rel="stylesheet" href="assets/css/index.css?version=1.02">
 </head>
 <body>
 
@@ -105,7 +105,8 @@
     <h2 class="section-title text-blue-sbdb">Nos Services</h2>
     <div class="row g-4">
       <div class="col-md-4">
-        <div class="card border-0 shadow-sm">
+        <div class="card border-0 shadow-sm" data-bs-toggle="modal" data-bs-target="#serviceModal1" style="cursor: pointer;">
+          <span class="en-savoir-plus">...</span>
           <div class="card-body">
             <img class="svg-img" src="assets/img/construction.svg" alt="construction" />
             <h5 class="card-title">Construction clé en main</h5>
@@ -114,7 +115,8 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card border-0 shadow-sm">
+        <div class="card border-0 shadow-sm" data-bs-toggle="modal" data-bs-target="#serviceModal1" style="cursor: pointer;">
+          <span class="en-savoir-plus">...</span>
           <div class="card-body">
             <img class="svg-img" src="assets/img/reno.svg" alt="renovation" />
             <h5 class="card-title">Rénovations</h5>
@@ -123,7 +125,8 @@
         </div>
       </div>      
       <div class="col-md-4">
-        <div class="card border-0 shadow-sm">
+        <div class="card border-0 shadow-sm" data-bs-toggle="modal" data-bs-target="#serviceModal1" style="cursor: pointer;">
+          <span class="en-savoir-plus">...</span>
           <div class="card-body">
             <img class="svg-img" src="assets/img/plan.svg" alt="construction" />
             <h5 class="card-title">Plans personnalisés</h5>
@@ -131,8 +134,9 @@
           </div>
         </div>
       </div>
-      <div id="garanties" class="col-md-4">
+      <div id="garanties" class="col-md-4" data-bs-toggle="modal" data-bs-target="#serviceModal1" style="cursor: pointer;">
         <div class="card border-0 shadow-sm">
+          <span class="en-savoir-plus">...</span>
           <div class="card-body">
             <img class="svg-img" src="assets/img/garantie.svg" alt="construction" />
             <h5 class="card-title">Garanties</h5>
@@ -141,7 +145,8 @@
         </div>
       </div>      
       <div class="col-md-4">
-        <div class="card border-0 shadow-sm">
+        <div class="card border-0 shadow-sm" data-bs-toggle="modal" data-bs-target="#serviceModal1" style="cursor: pointer;">
+          <span class="en-savoir-plus">...</span>
           <div class="card-body">
             <img class="svg-img" src="assets/img/experience.svg" alt="construction" />
             <h5 class="card-title">60 ans d'expérience</h5>
@@ -150,7 +155,8 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card border-0 shadow-sm">
+        <div class="card border-0 shadow-sm" data-bs-toggle="modal" data-bs-target="#serviceModal1" style="cursor: pointer;">
+          <span class="en-savoir-plus">...</span>
           <div class="card-body">
             <img class="svg-img" src="assets/img/talking.svg" alt="construction" />
             <h5 class="card-title">Suivi de chantier</h5>
@@ -161,6 +167,42 @@
     </div>
   </div>
 </section>
+
+
+<!-- Modal service 1 -->
+<div class="modal fade" id="serviceModal1" tabindex="-1" aria-labelledby="serviceModalLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title color-sbdb-theme" id="serviceModalLabel1">Construction clé en main</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Constructeur de maisons individuelles indépendant depuis 1963, la société SBDB est à votre écoute pour votre <strong class="color-sbdb-theme">projet de construction de maison individuelle sur Pau et ses alentours</strong>.
+          <br><br>La société SBDB Constructions implantée à Pau a été fondée en 1963 par le père de Thierry LAGAHE (gérant actuel). Depuis 1989, l'entreprise s'est spécialisée dans la construction de maisons individuelles.
+          <div class="container-img">
+            <img src="assets/img/image2.jpg" alt="">
+          </div>
+          <br><hr>
+          <div class="container-img justify-content-start align-items-start gap-5">
+            <img class="align-self-center" style="height:100px !important;" src="assets/img/experience.svg" alt="">
+            <div>
+              Le savoir faire de la SBDB est le fruit d'une <strong class="color-sbdb-theme">expérience de près de 60 ans dans le domaine de la construction de maisons individuelles et de la rénovation.</strong> La plupart de nos réalisations (gros œuvre, charpente, couverture, zinguerie et assainissement) sont assurées par des ouvriers spécialisés employés au sein de notre société.
+            </div>
+          </div>
+          <br>
+          <hr>
+          <br>Nous construisons actuellement entre <strong class="color-sbdb-theme">vingt et trente maisons par an</strong>, ce qui fait de nous l’un des rares constructeurs de maisons individuelles <strong class="color-sbdb-theme">expérimenté et indépendant</strong> des Pyrénées-Atlantiques (64)
+          <br><br>L'équipe SBDB vous accompagne dans votre projet de construction de la conception à la réception de votre maison en vous proposant des <strong class="color-sbdb-theme">plans personnalisés</strong>, sur-mesure, selon vos envies, vos attentes et votre enveloppe financière afin de réaliser <strong class="color-sbdb-theme">la maison de vos rêves</strong>.
+          <div class="container-img">
+            <img src="assets/img/image4.jpg" alt="">
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Réalisations -->
 <!-- <section class="py-5 bg-light" id="realisations">
