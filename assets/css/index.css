@@ -106,7 +106,7 @@ footer {
     text-align: justify;
 }
 
-#services .card:hover {
+#services .card {
     transition:0.2s ease;
 }
 
@@ -137,8 +137,9 @@ hr {
     color: #41414150;
 }
 
-@media (max-width: 799px) {
 
+
+@media (max-width: 799px) {
     /* Styles ici pour les écrans de moins de 800px */
     .constructeur,
     .de-maison-ind {
